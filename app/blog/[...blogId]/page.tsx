@@ -26,8 +26,7 @@ export default async function(props : any){
     return (
         <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md mt-12">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">{blogById?.blogHeading}</h1>
-            <img
-                src={blogById?.imageUrl}
+            <img src={blogById?.imageUrl}
                 alt="Blog Image"
                 className="w-full h-64 object-cover rounded-md mb-4"
             />
